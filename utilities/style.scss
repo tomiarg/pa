@@ -67,9 +67,9 @@ article{
         margin-bottom: 0px;
         background-size: cover;
         img{
-            width: 1400px;
-            height: 1970px;
-            opacity: 1;
+            width: 100%;
+            height: 300vh;
+            z-index: -1;
         }
     }
 
