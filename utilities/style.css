@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,800;1,400;1,600;1,700&display=swap");
+body {
+  height: 100vh;
+  background-color: #85887f;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Mulish', sans-serif;
+}
+
+.navbar {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar-brand, .navbar-nav, .nav-link, .nav-link.active, .navbar-nav .nav-link.active {
+  color: white;
+}
+
+div.h1 {
+  height: 100vh;
+  display: block;
+  margin-bottom: 0px;
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background-color: #e0dacd;
+  padding: 12px;
+  font-size: 72px;
+  font-weight: bolder;
+  mix-blend-mode: screen;
+}
+
+footer {
+  height: 200px;
+  background-color: darkgrey;
+}
+
+.footer {
+  font-size: 14px;
+  height: 176px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.copry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.redes img {
+  width: 30px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.redes img:hover {
+  width: 35px;
+}
+
+article div {
+  height: 300vh;
+  margin-bottom: 0px;
+  background-size: cover;
+}
+
+article div img {
+  width: 1400px;
+  height: 1970px;
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #292161;
+  font-weight: bolder;
+}
+/*# sourceMappingURL=style.css.map */

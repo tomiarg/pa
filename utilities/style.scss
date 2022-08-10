@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,800;1,400;1,600;1,700&display=swap');
+
+body{
+    height: 100vh;
+    background-color: #85887f;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Mulish', sans-serif;
+}
+.navbar{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar-brand, .navbar-nav, .nav-link, .nav-link.active,.navbar-nav .nav-link.active {
+    color: white;
+}
+
+div{
+    &.h1{
+        height: 100vh;
+        display: block;
+        margin-bottom: 0px;
+    }
+}
+h1{
+display: flex;
+   justify-content: center;
+   width: 100%;
+   background-color: #e0dacd;
+   padding: 12px;
+   font-size: 72px;
+   font-weight: bolder; 
+   mix-blend-mode: screen;
+
+}
+footer{
+    height: 200px;
+    background-color: darkgrey;
+}
+.footer{
+    font-size: 14px;
+    height: 176px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start;   
+}
+.copry{
+    display:flex;
+    justify-content: center;
+}
+
+.redes{
+    display: flex;
+    img{
+        width: 30px; 
+        transition: 1s;
+        &:hover{
+            width: 35px;
+        }
+    }
+}
+article{ 
+    div{
+        height: 300vh;
+        margin-bottom: 0px;
+        background-size: cover;
+        img{
+            width: 1400px;
+            height: 1970px;
+            opacity: 1;
+        }
+    }
+
+}
+
+a{
+    text-decoration: none;
+    &:hover{
+        color: rgb(41, 33, 97);
+        font-weight: bolder;
+    }
+}
